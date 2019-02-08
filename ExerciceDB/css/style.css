@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+textarea {
+	resize: none;
+}
+
+header {
+	background-color: #ccccff;
+	padding: 20px 0;
+	border-bottom: 2px solid #3366cc;
+}
+
+main {
+	margin: 50px 0;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	background-color: #ccccff;
+	padding: 10px 0;
+	border-top: 2px solid #3366cc;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#fields {
+	margin-left: 240px;
+}
+
+#bookSelector {
+	height: 606px;
+	width: 200px;
+	float: left;
+}
+
+#formSend {
+	text-align: right;
+}
+
+#formSend button {
+	width: 150px;
+}
